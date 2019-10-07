@@ -4,6 +4,7 @@
     <list default="true" id="5e5e64c9-4291-4cb4-aad0-eb28c2bb819f" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elm-stuff/0.19.0/Main.elmo" beforeDir="false" afterPath="$PROJECT_DIR$/elm-stuff/0.19.0/Main.elmo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.elm" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.elm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Patrice Cadiot &lt;pathibul.r@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RmRoolYuTbfFeSUSeJS628UwiP" />
@@ -80,12 +86,25 @@
       <workItem from="1570270463201" duration="19940000" />
       <workItem from="1570315221764" duration="42000" />
       <workItem from="1570315271106" duration="812000" />
-      <workItem from="1570458977151" duration="3673000" />
+      <workItem from="1570458977151" duration="3928000" />
     </task>
+    <task id="LOCAL-00001" summary="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats">
+      <created>1570468523534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570468523534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats" />
+    <option name="LAST_COMMIT_MESSAGE" value="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="643" y="271" width="624" height="539" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1570315240277">
