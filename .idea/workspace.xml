@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5e64c9-4291-4cb4-aad0-eb28c2bb819f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elm-stuff/0.19.0/Main.elmo" beforeDir="false" afterPath="$PROJECT_DIR$/elm-stuff/0.19.0/Main.elmo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.elm" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.elm" afterDir="false" />
     </list>
@@ -86,7 +84,7 @@
       <workItem from="1570270463201" duration="19940000" />
       <workItem from="1570315221764" duration="42000" />
       <workItem from="1570315271106" duration="812000" />
-      <workItem from="1570458977151" duration="3928000" />
+      <workItem from="1570458977151" duration="4232000" />
     </task>
     <task id="LOCAL-00001" summary="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats">
       <created>1570468523534</created>
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570468523534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats">
+      <created>1570468540066</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570468540066</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +120,9 @@
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state x="455" y="172" width="1009" height="737" key="SettingsEditor/0.27.1920.1020@0.27.1920.1020" timestamp="1570315325052" />
+    <state x="555" y="264" width="800" height="533" key="Vcs.Push.Dialog.v2" timestamp="1570468526327">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="555" y="264" width="800" height="533" key="Vcs.Push.Dialog.v2/0.27.1920.1020@0.27.1920.1020" timestamp="1570468526327" />
   </component>
 </project>

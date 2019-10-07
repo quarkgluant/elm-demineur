@@ -56,16 +56,16 @@ numberOfBombsAround : List Cell -> Int -> Int
 numberOfBombsAround cells id =
     let
         leftNeighbours leftCells x =
-            List.filter (\cell -> abs ((cell.id - 10) - x) == 1) leftCells
+            List.filter (\cell -> abs ((cell.id - 10) - x) == 1 && cell.isMine) leftCells
 
         rightNeighbours rightCells x =
-            List.filter (\cell -> abs ((cell.id + 10) - x) == 1) rightCells
+            List.filter (\cell -> abs ((cell.id + 10) - x) == 1 && cell.isMine) rightCells
 
         neighbours asideCells x =
-            List.filter (\cell -> abs (cell.id - x) == 1) asideCells
+            List.filter (\cell -> abs (cell.id - x) == 1 && cell.isMine) asideCells
 
         upDownNeighbours upDownCells x =
-            List.filter (\cell -> abs (cell.id - x) == 10) upDownCells
+            List.filter (\cell -> abs (cell.id - x) == 10 && cell.isMine) upDownCells
     in
     List.append (leftNeighbours cells id) (rightNeighbours cells id)
         |> List.append (neighbours cells id)
