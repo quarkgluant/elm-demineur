@@ -55,20 +55,22 @@ view model =
 numberOfBombsAround : List Cell -> Int -> Int
 numberOfBombsAround cells id =
     let
-        left_neighbours cell x =
-            abs
-                ((cell.id - 10) - x)
-                == 1
+        leftNeighbours leftCells x =
+            List.filter (\cell -> abs ((cell.id - 10) - x) == 1) leftCells
 
-        right_neighbours cell x =
-            abs ((cell.id + 10) - x) == 1
+        rightNeighbours rightCells x =
+            List.filter (\cell -> abs ((cell.id + 10) - x) == 1) rightCells
 
-        neighbours cell x =
-            abs (cell.id - x) == 1
+        neighbours asideCells x =
+            List.filter (\cell -> abs (cell.id - x) == 1) asideCells
+
+        upDownNeighbours upDownCells x =
+            List.filter (\cell -> abs (cell.id - x) == 10) upDownCells
     in
-    List.filter left_neighbours cells
-        |> List.filter right_neighbours
-        |> List.filter neighbours
+    List.append (leftNeighbours cells id) (rightNeighbours cells id)
+        |> List.append (neighbours cells id)
+        |> List.append (upDownNeighbours cells id)
+        --        |> List.filter (\x -> x == True)
         |> List.length
 
 
