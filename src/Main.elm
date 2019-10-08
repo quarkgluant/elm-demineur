@@ -17,9 +17,18 @@ type alias Model =
 init : Model
 init =
     { cells =
-        List.map (\x -> { id = x, isMine = modBy 7 x == 0, revealed = False })
+        List.map (\x -> { id = x, isMine = putBomb x, revealed = False })
             (List.range 1 100)
     }
+
+
+putBomb : Int -> Bool
+putBomb x =
+    if x > 0 && x < 101 && modBy 7 x == 0 then
+        True
+
+    else
+        False
 
 
 type Msg
@@ -66,11 +75,13 @@ numberOfBombsAround cells id =
 
         upDownNeighbours upDownCells x =
             List.filter (\cell -> abs (cell.id - x) == 10 && cell.isMine) upDownCells
+
+        inTheGrid inCells =
+            List.filter (\cell -> cell.id > 0 && cell.id < 101) inCells
     in
-    List.append (leftNeighbours cells id) (rightNeighbours cells id)
-        |> List.append (neighbours cells id)
-        |> List.append (upDownNeighbours cells id)
-        --        |> List.filter (\x -> x == True)
+    List.append (leftNeighbours (inTheGrid cells) id) (rightNeighbours (inTheGrid cells) id)
+        |> List.append (neighbours (inTheGrid cells) id)
+        |> List.append (upDownNeighbours (inTheGrid cells) id)
         |> List.length
 
 

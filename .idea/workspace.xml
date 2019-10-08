@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5e64c9-4291-4cb4-aad0-eb28c2bb819f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/elm-stuff/0.19.0/Main.elmo" beforeDir="false" afterPath="$PROJECT_DIR$/elm-stuff/0.19.0/Main.elmo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.elm" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.elm" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +88,9 @@
       <workItem from="1570315221764" duration="42000" />
       <workItem from="1570315271106" duration="812000" />
       <workItem from="1570458977151" duration="4232000" />
+      <workItem from="1570471503586" duration="606000" />
+      <workItem from="1570539783914" duration="64000" />
+      <workItem from="1570539848929" duration="1502000" />
     </task>
     <task id="LOCAL-00001" summary="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats">
       <created>1570468523534</created>
@@ -105,6 +111,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="numberOfBombsAround compile mais ne donne pas DU TOUT les bons résultats" />
