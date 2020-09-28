@@ -4,7 +4,7 @@ workshop Elm pour refaire un demineur
   
 Nous allons construire un clone du "démineur". Si vous ne
 connaissez pas, vous pouvez
-[essayer ici](http://demineur.hugames.fr/#level-3){:target="_blank"}
+[essayer ici](http://demineur.hugames.fr/#level-3:target="_blank")
  [ou là](http://demineur.org/){:target="_blank"}.
 
 Lorsque vous aurez fini l'atelier, n'hésitez pas à
